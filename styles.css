@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(198, 105, 241);
+}
+.container{
+    background-color: white;
+    height:350px;
+    width:400px;
+    border-radius:20px;
+    padding:20px;
+    transform:translate(400px,130px);
+}
+.container h1{
+    text-align: center;
+}
+.container input{
+    height:50px;
+    width:350px;
+    margin:20px;
+    border-radius:10px;
+    font-size: 20px;
+    color: black;
+}
+.slider input{
+    accent-color:rgb(198, 105, 241);
+    cursor: pointer;
+    width: 87%;
+    height: 5px;
+
+}
+.slide {
+    position: absolute;
+    top:205px;
+    left: 92%;
+    transform: translateX(-50%);
+    background-color: rgb(198,105,241);
+    padding: 2px 5px;
+    border-radius: 3px;
+    
+}
+.container button{
+    height:50px;
+    width:300px;
+    transform:translate(50px,10px);
+    color:white;
+    font-size:20px;
+    background-color:rgb(198,105,241);
+
+}
+.container button:hover{
+    background-color: rgb(71, 46, 78);
+}
+.reset button{
+    height: 30px;
+    width:100px;
+    margin:30px;
+    transform:translate(130px);
+}
